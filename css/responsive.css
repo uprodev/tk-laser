@@ -53,6 +53,11 @@
   .sale-page .content-width {
     width: 720px; }
 
+  .sale-page .top-line .top-menu {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+
   .sale-page .top-line .top-menu ul {
     display: none; }
 
@@ -367,7 +372,7 @@
     width: 100%; }
 
   .sale-page .img-3-text .bottom ul li p {
-    font-size: 18px; }
+    font-size: 14px; }
 
   .sale-page .img-3-text .bottom ul li .text-wrap {
     width: calc(100% - 60px) !important; }
@@ -416,9 +421,9 @@
       font-size: 50px; }
 
   .sale-page .item-sale .item .btn-red {
-    font-size: 21px;
-    height: 66px;
-    line-height: 66px; }
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px; }
 
   .sale-page .item-sale .content {
     grid-gap: 35px 20px; }
@@ -480,9 +485,9 @@
       font-size: 50px; }
 
   .sale-page .item-5n .btn-red {
-    font-size: 21px;
-    height: 66px;
-    line-height: 66px; }
+    font-size: 18px;
+    height: 56px;
+    line-height: 56px; }
 
   .sale-page .item-5n .content {
     grid-gap: 35px 20px; }
@@ -604,10 +609,43 @@
   .sale-page .footer-form .btn-red {
     height: 60px;
     line-height: 60px;
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .sale-page .item-sale .item figure img {
+    -o-object-position: center;
+       object-position: center; }
+
+  .sale-page .title-item-5n .item figure img {
+    -o-object-position: top center;
+       object-position: top center; }
+
+  .sale-page .item-sale .item figure img {
+    display: none; }
+
+  .sale-page .item-sale .item figure .mob {
+    display: block; }
+
+  .sale-page .item-5n .item figure img {
+    display: none; }
+
+  .sale-page .item-5n .item figure .mob {
+    display: block; }
+
+  .sale-page .title-item-5n .item figure img {
+    display: none; }
+
+  .sale-page .title-item-5n .item figure .mob {
+    display: block; }
+
+  .sale-page .img-3-text .bottom ul li:nth-child(5) .icon-wrap {
+    margin-right: 45px; }
+
+  .sale-page .img-3-text .bottom ul li:nth-child(5) .text-wrap {
+    width: calc(100% - 85px) !important; } }
 @media (max-width: 420px) {
   .sale-page .menu-responsive .mob-menu > ul > li {
-    padding: 0 20px; }
+    padding: 0 10px;
+    margin: 0 10px; }
 
   .sale-page .menu-responsive .mob-menu > ul > li > a {
     font-size: 15px; }
@@ -617,4 +655,5 @@
 
   .sale-page .popup-sale {
     padding: 50px 15px; } }
+
 /*# sourceMappingURL=responsive.css.map */

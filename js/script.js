@@ -56,6 +56,17 @@ jQuery(document).ready(function ($) {
     $('body,html').animate({scrollTop: top}, 1000);
   });
 
+  //scroll to block
+  $(document).on('click', '.mob-menu li a', function (e) {
+    e.preventDefault();
+    $.fancybox.close();
+    $('html').removeClass('is-menu-open');
+    var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+    $('body,html').animate({scrollTop: top}, 1000);
+  });
+
+
   //fix header
   $(".top-line").sticky({
     topSpacing:0
@@ -94,5 +105,12 @@ jQuery(document).ready(function ($) {
       }, 100);
     }
   });
+
+  $(document).on('click', '.popup-sale .delete', function (e) {
+    e.preventDefault();
+    $(this).closest('.input-radio').hide();
+  })
+
+
 
 });

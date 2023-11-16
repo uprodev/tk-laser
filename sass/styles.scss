@@ -899,6 +899,7 @@ $red: #ff0007;
       line-height: normal;
       text-transform: uppercase;
       margin-bottom: 20px;
+      text-align: center;
       b{
         font-weight: 700;
       }
@@ -1275,6 +1276,51 @@ $red: #ff0007;
   }
 }
 .sale-page .text-item-4 .item figure .mob{
+  display: none;
+}
+
+.sale-page .top-line .top-menu ul li a:hover{
+  font-weight: 700;
+}
+.sale-page .open-menu a span{
+  position: relative;
+  transition: all .4s ease;
+  top: 0;
+}
+.is-menu-open{
+  .sale-page .open-menu a span:first-child{
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .sale-page .open-menu a span:nth-child(2){
+    opacity: 0;
+  }
+  .sale-page .open-menu a span:last-child{
+    transform: rotate(-45deg);
+    top: -9px;
+  }
+}
+.sale-page .popup-sale .btn-black:hover{
+  background: #F33156;
+}
+.sale-page .popup-sale .btn-black:active{
+  background: #F33156;
+}
+
+.sale-page .text-item-4 .item .text .price{
+  font-size: 22px;
+  span{
+    font-size: 30px;
+  }
+}
+
+.sale-page .item-sale .item figure .mob{
+  display: none;
+}
+.sale-page .item-5n .item figure .mob{
+  display: none;
+}
+.sale-page .title-item-5n .item figure .mob{
   display: none;
 }
 /*-----------------------END-POPUP---------------------------------*/
