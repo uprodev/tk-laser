@@ -654,6 +654,13 @@
     height: 50px; }
 
   .sale-page .popup-sale {
-    padding: 50px 15px; } }
+    padding: 50px 15px; }
+
+  .sale-page .menu-responsive .mob-menu > ul > li > a {
+    padding-right: 30px; }
+
+  .sale-page .popup-sale .total-info .total {
+    padding: 0 5px;
+    white-space: nowrap; } }
 
 /*# sourceMappingURL=responsive.css.map */
